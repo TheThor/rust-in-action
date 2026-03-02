@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../rust-in-action">
-      <sourceFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/cereals/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/hello-world/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/hello2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/penguins/src" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/cereals/target" />
-      <excludeFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/hello-world/target" />
-      <excludeFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/hello2/target" />
-      <excludeFolder url="file://$MODULE_DIR$/../rust-in-action/ch1/penguins/target" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ch1/cereals/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/hello-world/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/hello2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/penguins/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/fruit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/int-creation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/letters/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/race-condition/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/base-numbers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/complex-numbers-library/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/first-steps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/mandelbrot/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/match-example/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/needle-in-haystack/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/numeric-literals/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/pointers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/while-time-duration/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1/cereals/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1/hello-world/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1/hello2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1/penguins/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
