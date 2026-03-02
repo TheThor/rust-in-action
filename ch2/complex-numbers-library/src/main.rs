@@ -1,4 +1,4 @@
-use std::num::Complex;
+use num::complex::Complex;
 
 fn main() {
     let a = Complex { re: 2.1, im: -1.2 };
