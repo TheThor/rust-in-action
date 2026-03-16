@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "add-floats"
+version = "0.1.0"
+
+[[package]]
+name = "add-with-lifetimes"
+version = "0.1.0"
+
+[[package]]
 name = "autocfg"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -10,6 +18,10 @@ checksum = "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8"
 
 [[package]]
 name = "base-numbers"
+version = "0.1.0"
+
+[[package]]
+name = "cast-example"
 version = "0.1.0"
 
 [[package]]
@@ -29,6 +41,10 @@ version = "0.1.0"
 
 [[package]]
 name = "fruit"
+version = "0.1.0"
+
+[[package]]
+name = "generic-add"
 version = "0.1.0"
 
 [[package]]
@@ -149,6 +165,10 @@ version = "0.1.0"
 
 [[package]]
 name = "race-condition"
+version = "0.1.0"
+
+[[package]]
+name = "try-into-cast"
 version = "0.1.0"
 
 [[package]]
