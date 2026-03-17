@@ -75,7 +75,7 @@ fn mandelbrot_point(
     // start with a Z for z = (z * z) + c; as 0
     let mut z = Complex { re: 0.0, im: 0.0 };
     for i in 0..max_iters {
-        if (z.norm() > 2.0) {
+        if z.norm() > 2.0 {
             return i;
         }
         z = z * z + c;
@@ -94,13 +94,13 @@ fn render_mandelbrot(
             let current_value = match point {
                 // Copy-pasted as I was given no ASCI art perks when spawned
                 0..=2 => ' ',
-                2..=5 => '.',
+                3..=4 => '.',
                 5..=10 => '•',
                 11..=30 => '*',
-                30..=100 => '+',
-                100..=200 => 'x',
-                200..=400 => '$',
-                400..=700 => '#',
+                31..=100 => '+',
+                101..=200 => 'x',
+                201..=400 => '$',
+                401..=700 => '#',
                 _ => '%',
             };
             print!("{}", current_value);
