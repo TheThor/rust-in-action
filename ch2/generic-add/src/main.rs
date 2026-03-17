@@ -1,13 +1,17 @@
-use std::time;
+use std::ops::{Add};
+use std::time::{Duration};
 
 fn main() {
-    let float_sum = add(2.0, 3.3);
-    println!("{}", float_sum);
-    let int_sum = add(1,3);
+    let float_sum = add(2.0, 10.3);
+    let int_sum = add(1,8);
     let add_durations = add(
-        Duration::from_secs_f64(float_sum),
-        Duration::from_secs_f64(int_sum),
+        Duration::new(15,0),
+        Duration::new(10, 0),
     );
+
+    println!("{}", float_sum);
+    println!("{}", int_sum);
+    println!("{:?}", add_durations); //  :? debug formatter
 }
 
 fn add<T : Add<Output = T>>(i: T, j: T) -> T {
